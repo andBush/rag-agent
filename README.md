@@ -11,4 +11,4 @@ To avoid suffering with different encodings of .pdf and .docx files I turned the
 With desire to create stable and efficient RAG agent I decided to use opensourse models from HuggingFace (in my case, 'BAAI/bge-m3' as embedding model and 'mistralai/Mistral-7B-Instruct-v0.3' as the main LLM) and libraries such as langchain and faiss.
 
 ## Instructions
-If you would like to run the model on your personal computer, I need to give you a peace of advice. Firstly, get your token on https://huggingface.co/settings/tokens, then copy and paste them into 'global variables' inside .ipynb file. To provide the model with processed documents you need to upload .zip file to .ipynb while running the code.
+If you would like to run the model on your personal computer, I need to give you a peace of advice. Firstly, get your token on https://huggingface.co/settings/tokens, then copy and paste them into 'global variables' inside .ipynb file. To provide the model with processed documents you need to upload .zip file to .ipynb while running the code. Change the query in the end of .ipynb file to ask the question.
